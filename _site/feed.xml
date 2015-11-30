@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gumdrop Attack</title>
-    <description>iOS Mobile Arcade game. just in time for the Holidays!
+    <description>iOS Mobile Arcade game. Just in time for the Holidays!
 </description>
-    <link>http://localhost:4000//</link>
-    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Nov 2015 06:32:19 -0500</pubDate>
-    <lastBuildDate>Mon, 30 Nov 2015 06:32:19 -0500</lastBuildDate>
+    <link>http://gumdropattack.com//</link>
+    <atom:link href="http://gumdropattack.com//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 30 Nov 2015 06:59:18 -0500</pubDate>
+    <lastBuildDate>Mon, 30 Nov 2015 06:59:18 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Sun, 29 Nov 2015 10:11:04 -0500</pubDate>
-        <link>http://localhost:4000//jekyll/update/2015/11/29/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2015/11/29/welcome-to-jekyll.html</guid>
+        <link>http://gumdropattack.com//jekyll/update/2015/11/29/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://gumdropattack.com//jekyll/update/2015/11/29/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
