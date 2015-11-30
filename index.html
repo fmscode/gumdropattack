@@ -1,23 +1,44 @@
 ---
 layout: default
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<img src="{{site.baseurl}}/assets/main_screenshot.png" />
+<div class="product-hero section group">
+  <!-- <img src="{{site.baseurl}}assets/logo-40.png" /> -->
+  <p class="description">Twas the night before Christmas, when all through the world not a creature was stirring.....well other than the angry Gingerbread Men!</p>
+  <br>
+  <p class="description">Take control of Santa's sleight and fight off the Gumdrop Attack by the Gingerbread Men. Fight the endless oncoming of Gingerbread Men and ensure the safety of the World!!</p>
 </div>
+<hr>
+<div class="product-feature section group">
+  <div class="col span_7_of_12">
+    <img class="feature-image" src="assets/endlessplay.png"></img>
+  </div>
+  <div class="col span_4_of_12">
+    <h3 class="feature-title tk-lobster">Endless Gameplay</h3>
+    <p class="feature-desc">Endless Gameplay!</p>
+  </div>
+</div>
+<hr>
+<div class="product-feature section group">
+  <div class="col span_4_of_12">
+    <h3 class="feature-title tk-lobster">Cheat Codes</h3>
+    <p class="feature-desc">Find cheat codes on this site to unlock new characters! (You can even find one on this page!)</p>
+  </div>
+  <div class="col span_7_of_12">
+    <img class="feature-image" src="assets/cheat_screenshots.png"></img>
+  </div>
+</div>
+<hr>
+<div class="product-feature section group">
+  <div class="col span_12_of_12">
+    <h3 class="feature-title tk-lobster">Coming Soon</h3>
+    <p class="feature-desc">We are working hard on the next update for Gumdrop Attack! Some of the planned features are listed below!</p>
+    <ul>
+      <li><b>Apple TV Support</b>: Apple TV version of the game to play on the new Apple TV</li>
+      <li><b>High Score Boards</b>: Support Game Center so players can compete on getting the highest score</li>
+      <li><b>More Cheat Codes</b>: New cheat codes to unlock new characters</li>
+      <li><b>Difficulty Levels</b>: Three new difficulty levels to challenge yourself to</li>
+    </ul>
+  </div>
+</div>
+<center><a href="https://itunes.apple.com/us/app/coords/id927953579?ls=1&mt=12"><img src="/assets/appstore.png" width="500px"></img></a></center>

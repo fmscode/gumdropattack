@@ -1,0 +1,19 @@
+---
+layout: page
+title: Developer Log
+---
+<div>
+  <p class="page-description">This was the Log I kept while developing the game. It was meant as a way to keep track of the progress of the development of Gumdrop Attack. These were suppose to be short and quick logs of what I did or was happening that day. I've gone through to clean them up of misspells or other major grammar issues</p>
+  <hr>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2 class="post-link-header tk-lobster">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <p class="post-excerpt">{{post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
